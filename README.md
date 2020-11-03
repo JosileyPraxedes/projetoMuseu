@@ -1,5 +1,5 @@
 <h4 align="center"> 
-	Museu
+	Museu Nacional 
 </h4>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 ## Sobre
 
- Museu - Template web da pagina principal, desenvolvido em html e css, de um Museu. 
+ Museu Nacional - Template web da pagina principal, desenvolvido em html e css, de um Museu. 
 
 Projeto desenvolvido durante o curso [Desenvolvimento Web Completo 2020](https://www.udemy.com/share/101WqGBUIZd19TRnQ=/), criado pelo professor [Jamilton Damasceno](https://jamiltondamasceno.com.br/).
 
