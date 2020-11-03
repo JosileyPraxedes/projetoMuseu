@@ -23,7 +23,7 @@ Projeto desenvolvido durante o curso [Desenvolvimento Web Completo 2020](https:/
 ### Página Inicial
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  	<img alt="Página inicial" src="/.github/screenshots/index.png" width="100%">
+  	<img alt="Página inicial" src="/.github/screenshots/index1.png" width="100%">
 </p>
 
 ---
