@@ -23,37 +23,38 @@ a:hover {
 
 /* logo  
 ******************/
-#logo h1 {
-  float: left;
-}
-
 #logo a {
   width: 248px;
   height: 21px;
+  margin-top: 20px;
+
   text-indent: -9999px;
-  display: block;
+  display: flex;
   background: url(../image/logo.png) no-repeat;
 }
 
 /* Barra de navegação 
 ********************/
 header {
+  display: flex;
+  justify-content: space-between;
   padding: 15px 0;
   height: 55px;
 }
 
-nav ul {
-  list-style: none;
-  margin: 20px;
-  float: right;
+header nav{
+  display: flex;
+  justify-content: space-between;
+  margin: auto 30px;
 }
 
-nav ul li {
-  float: left;
+header nav ul {
+  list-style: none;
+  margin: 20px;
+  display: flex;
 }
 
 nav ul li a:link {
-  display: block;
   margin-right: 25px;
   padding-bottom: 3px;
   text-transform: uppercase;
@@ -65,16 +66,28 @@ nav ul li a:hover {
 
 /* Principal 
 *************************/
+#principal{
+  display:flex;
+  justify-content: space-between;
+}
+right
 #conteudo {
   width: 710px;
-  float: left;
   margin-bottom: 20px;
+  display: inline-flexbox;
+}
+
+section#postagens{
+  width: 710px;
+  height: 685px;
+
+  display: flex;
+  flex-flow: row wrap;
 }
 
 aside {
   width: 350px;
   padding-bottom: 30px;
-  float: right;
   background: #ebe7dd;
   margin-bottom: 20px;
 }
@@ -90,16 +103,15 @@ section#visita {
 }
 
 section#galeria a {
-  display: block;
+  display: inline-flex;
+
   background: url(../image/fundo-foto.png) no-repeat;
-  float: left;
   padding: 20px 15px 20px 15px;
-  margin: 10px 0 0 20px;
+  margin: 10px 0 5px 20px;
 }
 
 section#galeria img {
-  margin-left: 2px;
-  margin-top: 3px;
+  margin: 2px 0 3px 0;
 }
 
 article#video,
@@ -108,26 +120,27 @@ article#mapa {
 }
 
 article#video {
-  float: left;
   width: 310px;
+  height: 210px;
   margin-left: 25px;
 }
 
 article#mapa {
-  float: left;
   width: 310px;
+  height: 210px;
   margin-left: 37px;
 }
 
 article#exposicoes {
-  float: left;
   width: 310px;
+  height: 210px;
   margin: 15px 0 0 25px;
 }
 
 article#historia {
-  float: left;
+  /* flex: 1 1 auto; */
   width: 310px;
+  height: 210px;
   margin: 15px 0 0 37px;
 }
 
