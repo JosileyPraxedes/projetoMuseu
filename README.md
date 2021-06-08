@@ -12,7 +12,7 @@
 
 ## Sobre
 
- Museu Nacional - Template web da pagina principal, desenvolvido em html e css, de um Museu. 
+ Museu Nacional - Template web da pagina principal, desenvolvido em HTML E CSS3, de um museu. 
 
 Projeto desenvolvido durante o curso [Desenvolvimento Web Completo 2020](https://www.udemy.com/share/101WqGBUIZd19TRnQ=/), criado pelo professor [Jamilton Damasceno](https://jamiltondamasceno.com.br/).
 
